@@ -33,12 +33,12 @@ const products = [
 export function ServicesSection() {
   const handleExamWhatsApp = () => {
     const message = encodeURIComponent("Olá! Gostaria de agendar um exame audiológico.");
-    window.open(`https://wa.me/5551999999999?text=${message}`, '_blank');
+    window.open(`https://wa.me/555198369201?text=${message}`, '_blank');
   };
 
   const handleTherapyWhatsApp = () => {
     const message = encodeURIComponent("Olá! Gostaria de falar sobre terapia de linguagem e fala.");
-    window.open(`https://wa.me/5551999999999?text=${message}`, '_blank');
+    window.open(`https://wa.me/555198369201?text=${message}`, '_blank');
   };
 
   return (

@@ -94,7 +94,7 @@ export function LocationSection() {
             <Card className="shadow-soft overflow-hidden h-full">
               <CardContent className="p-0 h-full">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3454.0985710259547!2d-51.22851858513476!3d-30.03758528187785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951979f8c5b8a4e1%3A0x7d4f8e1a2b5c6d8e!2sAv.%20Praia%20de%20Belas%2C%201212%20-%20Praia%20de%20Belas%2C%20Porto%20Alegre%20-%20RS!5e0!3m2!1spt-BR!2sbr!4v1635789012345!5m2!1spt-BR!2sbr"
+                  src="https://maps.google.com/?cid=15381238995993112765&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQ"
                   width="100%"
                   height="500"
                   style={{ border: 0 }}

@@ -4,7 +4,7 @@ import { MessageCircle, Instagram } from "lucide-react";
 export function HeroSection() {
   const handleWhatsAppContact = () => {
     const message = encodeURIComponent("Olá! Gostaria de agendar uma consulta para aparelhos auditivos.");
-    window.open(`https://wa.me/5551999999999?text=${message}`, '_blank');
+    window.open(`https://wa.me/555198369201?text=${message}`, '_blank');
   };
 
   const handleInstagramContact = () => {
