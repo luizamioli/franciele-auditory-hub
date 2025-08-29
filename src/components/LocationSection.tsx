@@ -35,9 +35,9 @@ export function LocationSection() {
                     <div>
                       <h4 className="font-semibold text-foreground mb-1">Endereço</h4>
                       <p className="text-muted-foreground">
-                        Av. Praia de Belas, 1212 - Sala 405<br />
-                        Praia de Belas, Porto Alegre - RS<br />
-                        CEP: 90110-000
+                        Rua Lauert Filho, 115<br />
+                        Taquari - RS<br />
+                        CEP: 95860-000
                       </p>
                     </div>
                   </div>
@@ -94,14 +94,14 @@ export function LocationSection() {
             <Card className="shadow-soft overflow-hidden h-full">
               <CardContent className="p-0 h-full">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3454.0985710259547!2d-51.22851858513476!3d-30.03758528187785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951979f8c5b8a4e1%3A0x7d4f8e1a2b5c6d8e!2sAv.%20Praia%20de%20Belas%2C%201212%20-%20Praia%20de%20Belas%2C%20Porto%20Alegre%20-%20RS!5e0!3m2!1spt-BR!2sbr!4v1635789012345!5m2!1spt-BR!2sbr"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3396.8234567890123!2d-51.8123456!3d-29.6543210!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjnCsDM5JzE1LjYiUyA1McKwNDgnNDQuNCJX!5e0!3m2!1spt-BR!2sbr!4v1635789012345!5m2!1spt-BR!2sbr&q=Rua+Lauert+Filho,+115,+Taquari,+RS,+95860-000"
                   width="100%"
                   height="500"
                   style={{ border: 0 }}
                   allowFullScreen
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="Localização da Clínica Franciele Souza"
+                  title="Localização da Clínica Franciele Souza - Taquari"
                   className="rounded-lg"
                 ></iframe>
               </CardContent>
