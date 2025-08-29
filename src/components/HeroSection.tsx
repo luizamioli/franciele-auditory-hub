@@ -16,14 +16,14 @@ export function HeroSection() {
       <div className="max-w-6xl mx-auto px-6 py-20 text-center animate-fade-in">
         <h1 className="text-5xl md:text-7xl font-bold text-foreground mb-6 leading-tight">
           Franciele Souza
-          <span className="block text-primary">Sua Fonoaudióloga em</span>
-          <span className="block text-primary">Aparelhos Auditivos</span>
+          <span className="block text-primary">Fonoaudiologia Completa para</span>
+          <span className="block text-primary">Adultos e Crianças</span>
         </h1>
         
         <p className="text-xl md:text-2xl text-muted-foreground mb-12 max-w-3xl mx-auto leading-relaxed">
-          Atendimento personalizado e aparelhos de qualidade. 
+          Aparelhos Auditivos, Exames e Terapia de Linguagem.
           <br className="hidden md:block" />
-          Entre em contato ou agende sua consulta agora mesmo.
+          Cuidado completo em um só lugar.
         </p>
         
         <div className="flex flex-col md:flex-row gap-6 justify-center items-center">
