@@ -1,8 +1,8 @@
 import { ProductCard } from "./ProductCard";
-import discreteHearingAid from "@/assets/hearing-aid-discrete.jpg";
-import rechargeableHearingAid from "@/assets/hearing-aid-rechargeable.jpg";
-import bluetoothHearingAid from "@/assets/hearing-aid-bluetooth.jpg";
-import invisibleHearingAid from "@/assets/hearing-aid-invisible.jpg";
+import discreteHearingAid from "@/assets/nexiaaa-5.jpg";
+import rechargeableHearingAid from "@/assets/Nexia 1.jpg";
+import bluetoothHearingAid from "@/assets/Nexi-3.jpg";
+import invisibleHearingAid from "@/assets/Nexia-4.jpg";
 
 const products = [
   {

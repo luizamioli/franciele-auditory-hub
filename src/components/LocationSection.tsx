@@ -35,9 +35,9 @@ export function LocationSection() {
                     <div>
                       <h4 className="font-semibold text-foreground mb-1">Endereço</h4>
                       <p className="text-muted-foreground">
-                        Rua Lauert Filho, 115<br />
-                        Taquari - RS<br />
-                        CEP: 95860-000
+                        Av. Praia de Belas, 1212 - Sala 405<br />
+                        Praia de Belas, Porto Alegre - RS<br />
+                        CEP: 90110-000
                       </p>
                     </div>
                   </div>
@@ -94,18 +94,14 @@ export function LocationSection() {
             <Card className="shadow-soft overflow-hidden h-full">
               <CardContent className="p-0 h-full">
                 <iframe
-<<<<<<< HEAD
                   src="https://maps.google.com/?cid=15381238995993112765&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQ"
-=======
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3396.8234567890123!2d-51.8123456!3d-29.6543210!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjnCsDM5JzE1LjYiUyA1McKwNDgnNDQuNCJX!5e0!3m2!1spt-BR!2sbr!4v1635789012345!5m2!1spt-BR!2sbr&q=Rua+Lauert+Filho,+115,+Taquari,+RS,+95860-000"
->>>>>>> 0c369909bd7778dd18e18fa3c28230e72c6e139d
                   width="100%"
                   height="500"
                   style={{ border: 0 }}
                   allowFullScreen
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="Localização da Clínica Franciele Souza - Taquari"
+                  title="Localização da Clínica Franciele Souza"
                   className="rounded-lg"
                 ></iframe>
               </CardContent>
