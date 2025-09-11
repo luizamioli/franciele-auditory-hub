@@ -13,7 +13,7 @@ export function HeroSection() {
   };
 
   return (
-    <section className="min-h-screen flex items-center justify-center soft-gradient">
+    <section id="inicio" className="min-h-screen flex items-center justify-center soft-gradient pt-16">
       <div className="max-w-6xl mx-auto px-6 py-20">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left side - Text content */}
@@ -30,7 +30,7 @@ export function HeroSection() {
               Cuidado completo em um só lugar.
             </p>
             
-            <div className="flex flex-col md:flex-row gap-6 mb-12">
+            <div className="flex flex-col md:flex-row gap-6">
               <Button 
                 variant="whatsapp" 
                 size="hero"
@@ -51,13 +51,6 @@ export function HeroSection() {
                 Seguir no Instagram
               </Button>
             </div>
-
-            {/* Address */}
-            <div className="mt-16">
-              <p className="text-lg font-semibold text-foreground mb-4">
-                Rua Laurent Filho, 115, Taquari - RS, CEP: 95860-000
-              </p>
-            </div>
           </div>
 
           {/* Right side - Professional image */}
@@ -71,21 +64,6 @@ export function HeroSection() {
               <div className="absolute inset-0 bg-gradient-to-t from-primary/10 to-transparent rounded-2xl pointer-events-none"></div>
             </div>
           </div>
-        </div>
-
-        {/* Map section moved below */}
-        <div className="mt-24 flex justify-center">
-          <iframe
-            src="https://www.google.com/maps?q=Rua+Laurent+Filho,+115,+Taquari,+RS,+95860-000,+Brasil&output=embed"
-            width="400"
-            height="250"
-            style={{ border: 0, borderRadius: '12px' }}
-            allowFullScreen={false}
-            loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
-            title="Mapa da Clínica"
-            className="shadow-soft"
-          ></iframe>
         </div>
       </div>
     </section>
