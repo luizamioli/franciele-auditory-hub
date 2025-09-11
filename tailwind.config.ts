@@ -54,8 +54,8 @@ export default {
 					foreground: 'hsl(var(--card-foreground))'
 				},
 				medical: {
-					blue: 'hsl(var(--medical-blue))',
-					'blue-light': 'hsl(var(--medical-blue-light))',
+					pink: 'hsl(var(--medical-pink))',
+					'pink-light': 'hsl(var(--medical-pink-light))',
 					green: 'hsl(var(--medical-green))',
 					gray: 'hsl(var(--medical-gray))'
 				},

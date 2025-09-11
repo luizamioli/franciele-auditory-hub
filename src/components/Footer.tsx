@@ -6,7 +6,7 @@ export function Footer() {
   };
 
   const handlePhoneClick = () => {
-    window.open('tel:+5551999999999', '_self');
+    window.open('tel:+555198369201', '_self');
   };
 
   const handleEmailClick = () => {
@@ -33,7 +33,7 @@ export function Footer() {
                 className="flex items-center gap-3 text-primary-foreground/80 hover:text-primary-foreground transition-smooth"
               >
                 <Phone className="w-4 h-4" />
-                (51) 99999-9999
+                (51) 98369-201
               </button>
               <button 
                 onClick={handleEmailClick}
@@ -44,7 +44,7 @@ export function Footer() {
               </button>
               <div className="flex items-center gap-3 text-primary-foreground/80">
                 <MapPin className="w-4 h-4" />
-                Rua Lauert Filho, 11
+                Rua Laurent Filho, 115, Taquari - RS
               </div>
             </div>
           </div>

@@ -5,7 +5,7 @@ import { MapPin, Clock, Phone, Mail } from "lucide-react";
 export function LocationSection() {
   const handleWhatsAppContact = () => {
     const message = encodeURIComponent("Olá! Gostaria de agendar uma consulta na clínica.");
-    window.open(`https://wa.me/5551999999999?text=${message}`, '_blank');
+    window.open(`https://wa.me/555198369201?text=${message}`, '_blank');
   };
 
   return (
@@ -35,7 +35,7 @@ export function LocationSection() {
                     <div>
                       <h4 className="font-semibold text-foreground mb-1">Endereço</h4>
                       <p className="text-muted-foreground">
-
+                        Rua Laurent Filho, 115, Taquari - RS, CEP: 95860-000
                       </p>
                     </div>
                   </div>
@@ -60,7 +60,7 @@ export function LocationSection() {
                     </div>
                     <div>
                       <h4 className="font-semibold text-foreground mb-1">Telefone</h4>
-                      <p className="text-muted-foreground">(51) 99999-9999</p>
+                      <p className="text-muted-foreground">(51) 98369-201</p>
                     </div>
                   </div>
                   
@@ -91,6 +91,16 @@ export function LocationSection() {
           <div className="animate-fade-in">
             <Card className="shadow-soft overflow-hidden h-full">
               <CardContent className="p-0 h-full">
+                <iframe
+                  src="https://www.google.com/maps?q=Rua+Laurent+Filho,+115,+Taquari,+RS,+95860-000,+Brasil&output=embed"
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0, minHeight: '400px' }}
+                  allowFullScreen={false}
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="Mapa da Clínica - Rua Laurent Filho, 115"
+                ></iframe>
               </CardContent>
             </Card>
           </div>
