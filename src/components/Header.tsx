@@ -24,7 +24,7 @@ export function Header() {
   };
 
   return (
-    <header className="fixed top-0 left-0 right-0 bg-background/95 backdrop-blur-sm border-b border-border z-50">
+    <header className="fixed top-0 left-0 right-0 bg-gradient-to-r from-primary/10 via-primary/5 to-background/95 backdrop-blur-sm border-b border-border/50 z-50">
       <div className="max-w-6xl mx-auto px-6">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
@@ -97,7 +97,7 @@ export function Header() {
 
         {/* Mobile Menu */}
         {isMenuOpen && (
-          <div className="lg:hidden border-t border-border bg-background/95 backdrop-blur-sm">
+          <div className="lg:hidden border-t border-border/50 bg-gradient-to-r from-primary/10 via-primary/5 to-background/95 backdrop-blur-sm">
             <nav className="py-4 space-y-4">
               <button 
                 onClick={() => scrollToSection('inicio')}
