@@ -32,7 +32,7 @@ export function HeroSection() {
             
             <div className="flex flex-col md:flex-row gap-6">
               <Button 
-                variant="whatsapp" 
+                variant="medical" 
                 size="hero"
                 onClick={handleWhatsAppContact}
                 className="w-full md:w-auto"
@@ -42,7 +42,7 @@ export function HeroSection() {
               </Button>
               
               <Button 
-                variant="instagram" 
+                variant="medical" 
                 size="hero"
                 onClick={handleInstagramContact}
                 className="w-full md:w-auto"
