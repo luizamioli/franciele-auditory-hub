@@ -35,7 +35,9 @@ export function LocationSection() {
                     <div>
                       <h4 className="font-semibold text-foreground mb-1">Endereço</h4>
                       <p className="text-muted-foreground">
-
+                        Av. Praia de Belas, 1212 - Sala 405<br />
+                        Praia de Belas, Porto Alegre - RS<br />
+                        CEP: 90110-000
                       </p>
                     </div>
                   </div>
@@ -91,6 +93,17 @@ export function LocationSection() {
           <div className="animate-fade-in">
             <Card className="shadow-soft overflow-hidden h-full">
               <CardContent className="p-0 h-full">
+                <iframe
+                  src="https://maps.google.com/?cid=15381238995993112765&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQ"
+                  width="100%"
+                  height="500"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="Localização da Clínica Franciele Souza"
+                  className="rounded-lg"
+                ></iframe>
               </CardContent>
             </Card>
           </div>

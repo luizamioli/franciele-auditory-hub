@@ -3,9 +3,9 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Stethoscope, MessageSquare } from "lucide-react";
 import discreteHearingAid from "@/assets/hearing-aid-discrete.jpg";
-import rechargeableHearingAid from "@/assets/Nexi-3.jpg";
-import bluetoothHearingAid from "@/assets/Nexia 1.jpg";
-import invisibleHearingAid from "@/assets/Nexia-4.jpg";
+import rechargeableHearingAid from "@/assets/hearing-aid-rechargeable.jpg";
+import bluetoothHearingAid from "@/assets/hearing-aid-bluetooth.jpg";
+import invisibleHearingAid from "@/assets/hearing-aid-invisible.jpg";
 
 const products = [
   {

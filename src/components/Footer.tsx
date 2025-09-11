@@ -44,7 +44,7 @@ export function Footer() {
               </button>
               <div className="flex items-center gap-3 text-primary-foreground/80">
                 <MapPin className="w-4 h-4" />
-                Rua Lauert Filho, 11
+                Av. Praia de Belas, 1212 - Porto Alegre/RS
               </div>
             </div>
           </div>
