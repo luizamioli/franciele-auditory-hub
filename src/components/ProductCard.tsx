@@ -10,7 +10,7 @@ interface ProductCardProps {
 export function ProductCard({ image, title, description }: ProductCardProps) {
   const handleWhatsAppContact = () => {
     const message = encodeURIComponent(`Olá! Gostaria de saber mais sobre o ${title}. Pode me ajudar?`);
-    window.open(`https://wa.me/555198369201?text=${message}`, '_blank');
+    window.open(`https://wa.me/5551998369201?text=${message}`, '_blank');
   };
 
   return (

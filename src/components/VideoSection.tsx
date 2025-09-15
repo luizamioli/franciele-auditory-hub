@@ -5,7 +5,7 @@ import { MessageCircle } from "lucide-react";
 export function VideoSection() {
   const handleWhatsAppContact = () => {
     const message = encodeURIComponent("Olá! Gostaria de conversar com a Franciele.");
-    window.open(`https://wa.me/555198369201?text=${message}`, '_blank');
+    window.open(`https://wa.me/5551998369201?text=${message}`, '_blank');
   };
 
   return (

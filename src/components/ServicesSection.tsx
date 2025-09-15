@@ -10,35 +10,30 @@ import invisibleHearingAid from "@/assets/Nexia-4.jpg";
 const products = [
   {
     image: discreteHearingAid,
-    title: "Modelo Discreto",
-    description: "Tecnologia avançada com design elegante e confortável. Perfeito para quem busca discrição sem abrir mão da qualidade."
+    title: "Aparelhos RIC",
+    description: "Receptor no canal auditivo com design discreto e excelente qualidade sonora. Ideal para perdas leves a severas."
   },
   {
     image: rechargeableHearingAid,
-    title: "Potência Recarregável",
-    description: "Bateria recarregável de longa duração com case prático. Tecnologia e conforto em suas mãos."
+    title: "Aparelhos BTE",
+    description: "Retroauriculares robustos e potentes, perfeitos para perdas auditivas severas a profundas com máxima amplificação."
   },
   {
     image: bluetoothHearingAid,
-    title: "Conectividade Total",
-    description: "Conecta diretamente ao seu smartphone via Bluetooth. Tecnologia e conforto para seu dia a dia."
-  },
-  {
-    image: invisibleHearingAid,
-    title: "Invisível Completo",
-    description: "Tecnologia completamente invisível, moldado especialmente para seu ouvido. Conforto máximo."
+    title: "Aparelhos Customizados",
+    description: "Moldados exclusivamente para seu ouvido, oferecendo conforto máximo e adaptação perfeita às suas necessidades."
   }
 ];
 
 export function ServicesSection() {
   const handleExamWhatsApp = () => {
     const message = encodeURIComponent("Olá! Gostaria de agendar um exame audiológico.");
-    window.open(`https://wa.me/555198369201?text=${message}`, '_blank');
+    window.open(`https://wa.me/5551998369201?text=${message}`, '_blank');
   };
 
   const handleTherapyWhatsApp = () => {
     const message = encodeURIComponent("Olá! Gostaria de falar sobre terapia de linguagem e fala.");
-    window.open(`https://wa.me/555198369201?text=${message}`, '_blank');
+    window.open(`https://wa.me/5551998369201?text=${message}`, '_blank');
   };
 
   return (
@@ -63,7 +58,7 @@ export function ServicesSection() {
             </p>
           </div>
           
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-3 gap-8">
             {products.map((product, index) => (
               <div key={index} className="animate-fade-in" style={{ animationDelay: `${index * 0.1}s` }}>
                 <ProductCard {...product} />
@@ -82,10 +77,15 @@ export function ServicesSection() {
                   <Stethoscope className="w-8 h-8 text-primary-foreground" />
                 </div>
                 <h3 className="text-2xl font-bold text-foreground mb-4">Exames Audiológicos</h3>
-                <p className="text-muted-foreground mb-6 leading-relaxed">
-                  Avaliações precisas para a sua saúde auditiva. Realizamos exames completos 
-                  para diagnóstico e acompanhamento com equipamentos de última geração.
-                </p>
+                <div className="text-muted-foreground mb-6 leading-relaxed">
+                  <p className="mb-3">Avaliações precisas para a sua saúde auditiva com equipamentos de última geração:</p>
+                  <ul className="space-y-2">
+                    <li>• Audiometria Tonal e Vocal</li>
+                    <li>• Audiometria Ocupacional</li>
+                    <li>• Imitanciometria</li>
+                    <li>• Timpanometria</li>
+                  </ul>
+                </div>
                 <Button 
                   variant="medical" 
                   onClick={handleExamWhatsApp}
@@ -106,8 +106,7 @@ export function ServicesSection() {
                 </div>
                 <h3 className="text-2xl font-bold text-foreground mb-4">Linguagem e Fala</h3>
                 <p className="text-muted-foreground mb-6 leading-relaxed">
-                  Tratamento especializado para adultos e crianças. Ajuda com gagueira, 
-                  comunicação, trocas na fala e desenvolvimento infantil.
+                  Terapia fonoaudiológica e estimulação de linguagem. Atendimento personalizado para adultos e crianças.
                 </p>
                 <Button 
                   variant="medical" 

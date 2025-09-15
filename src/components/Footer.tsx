@@ -6,11 +6,11 @@ export function Footer() {
   };
 
   const handlePhoneClick = () => {
-    window.open('tel:+555198369201', '_self');
+    window.open('tel:+5551998369201', '_self');
   };
 
   const handleEmailClick = () => {
-    window.open('mailto:contato@francielesouza.com.br', '_self');
+    window.open('mailto:franciele.fonoaudio@gmail.com', '_self');
   };
 
   return (
@@ -33,14 +33,14 @@ export function Footer() {
                 className="flex items-center gap-3 text-primary-foreground/80 hover:text-primary-foreground transition-smooth"
               >
                 <Phone className="w-4 h-4" />
-                (51) 98369-201
+                (51) 99836-9201
               </button>
               <button 
                 onClick={handleEmailClick}
                 className="flex items-center gap-3 text-primary-foreground/80 hover:text-primary-foreground transition-smooth"
               >
                 <Mail className="w-4 h-4" />
-                contato@francielesouza.com.br
+                franciele.fonoaudio@gmail.com
               </button>
               <div className="flex items-center gap-3 text-primary-foreground/80">
                 <MapPin className="w-4 h-4" />

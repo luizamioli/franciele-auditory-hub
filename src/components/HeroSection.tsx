@@ -5,7 +5,7 @@ import francieleImage from "@/assets/franciele-professional.jpg";
 export function HeroSection() {
   const handleWhatsAppContact = () => {
     const message = encodeURIComponent("Olá! Gostaria de agendar uma consulta para aparelhos auditivos.");
-    window.open(`https://wa.me/555198369201?text=${message}`, '_blank');
+    window.open(`https://wa.me/5551998369201?text=${message}`, '_blank');
   };
 
   const handleInstagramContact = () => {
