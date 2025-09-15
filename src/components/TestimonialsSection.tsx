@@ -19,12 +19,6 @@ const testimonials = [
     age: "72 anos", 
     text: "Profissional muito competente e atenciosa. O aparelho que ela indicou é perfeito para minhas necessidades. Recomendo para todos!",
     rating: 5
-  },
-  {
-    name: "Ana Costa",
-    age: "45 anos",
-    text: "Excelente acompanhamento desde a primeira consulta. A Dra. Franciele sempre disponível para ajustes e dúvidas. Muito satisfeita!",
-    rating: 5
   }
 ];
 
