@@ -3,6 +3,12 @@ import { Star } from "lucide-react";
 
 const testimonials = [
   {
+    name: "Laura Wolff",
+    age: "18 anos, usuária de aparelhos auditivos",
+    text: "Franciele foi muito mais do que uma simples fonoaudióloga para mim e minha família. Quando eu tinha 15 anos, em 2021, fui diagnosticada com Susac, uma síndrome rara, e, em busca de vários profissionais para me ajudar a recuperar os movimentos e realizar atividades básicas do dia a dia, encontramos a Fran, que agora consideramos um membro da família, uma amiga de verdade. Ela me ensinou a escutar os sons novamente e a pronunciar de uma maneira mais calma. Logo depois, ensinou minha irmã a conhecer e falar os primeiros fonemas. Continuo me tratando com a Fran até hoje e a recomendo de olhos fechados.",
+    rating: 5
+  },
+  {
     name: "Maria Silva",
     age: "68 anos",
     text: "A Dra. Franciele mudou minha vida! Depois de anos com dificuldades auditivas, hoje posso conversar normalmente com minha família. O atendimento é excepcional!",
