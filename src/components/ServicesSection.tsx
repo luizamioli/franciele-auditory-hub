@@ -68,7 +68,7 @@ export function ServicesSection() {
         </div>
 
         {/* Exames e Terapia */}
-        <div className="grid lg:grid-cols-2 gap-12">
+        <div className="grid lg:grid-cols-2 gap-12 mb-12">
           {/* Exames Audiológicos */}
           <div className="animate-fade-in">
             <Card className="shadow-soft hover:shadow-glow transition-smooth h-full">
@@ -118,6 +118,30 @@ export function ServicesSection() {
               </CardContent>
             </Card>
           </div>
+        </div>
+
+        {/* Saúde Ocupacional */}
+        <div className="animate-fade-in">
+          <Card className="shadow-soft hover:shadow-glow transition-smooth">
+            <CardContent className="p-8">
+              <div className="text-center">
+                <div className="trust-gradient p-4 rounded-full w-16 h-16 flex items-center justify-center mb-6 mx-auto">
+                  <Stethoscope className="w-8 h-8 text-primary-foreground" />
+                </div>
+                <h3 className="text-2xl font-bold text-foreground mb-4">Saúde Ocupacional</h3>
+                <p className="text-muted-foreground mb-6 leading-relaxed max-w-2xl mx-auto">
+                  Exames empresariais para cuidar da saúde auditiva no ambiente de trabalho.
+                </p>
+                <Button 
+                  variant="medical" 
+                  onClick={handleExamWhatsApp}
+                  className="w-full max-w-md mx-auto"
+                >
+                  Solicite Orçamento
+                </Button>
+              </div>
+            </CardContent>
+          </Card>
         </div>
       </div>
     </section>
