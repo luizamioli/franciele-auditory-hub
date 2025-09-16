@@ -13,7 +13,7 @@ export function HeroSection() {
   };
 
   return (
-    <section id="inicio" className="min-h-screen flex items-center justify-center soft-gradient pt-16">
+    <section id="inicio" className="min-h-screen flex items-center justify-center pink-soft-gradient pt-16">
       <div className="max-w-6xl mx-auto px-6 py-20">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left side - Text content */}
