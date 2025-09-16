@@ -9,7 +9,7 @@ export function HeroSection() {
   };
 
   const handleInstagramContact = () => {
-    window.open('https://instagram.com/francielesouzafono', '_blank');
+    window.open('https://instagram.com/fonofrancielesouza', '_blank');
   };
 
   return (
