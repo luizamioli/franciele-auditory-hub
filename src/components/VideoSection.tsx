@@ -22,7 +22,8 @@ export function VideoSection() {
           <div className="animate-fade-in">
             <Card className="shadow-soft overflow-hidden">
               <CardContent className="p-0">
-                <div className="aspect-video bg-muted flex items-center justify-center">
+                <div className="w-full max-w-md mx-auto" style={{ aspectRatio: '9/16' }}>
+                  <div className="w-full h-full bg-muted flex items-center justify-center rounded-lg">
                   <div className="text-center p-8">
                     <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
                       <svg 
@@ -34,6 +35,7 @@ export function VideoSection() {
                       </svg>
                     </div>
                     <p className="text-muted-foreground">Vídeo em breve</p>
+                  </div>
                   </div>
                 </div>
               </CardContent>
