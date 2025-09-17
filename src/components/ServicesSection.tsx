@@ -67,18 +67,18 @@ export function ServicesSection() {
           </div>
         </div>
 
-        {/* Exames e Terapia */}
-        <div className="grid lg:grid-cols-2 gap-12 mb-12">
+        {/* Serviços Fonoaudiológicos */}
+        <div className="grid md:grid-cols-3 gap-8">
           {/* Exames Audiológicos */}
           <div className="animate-fade-in">
             <Card className="shadow-soft hover:shadow-glow transition-smooth h-full">
-              <CardContent className="p-8">
+              <CardContent className="p-8 flex flex-col h-full">
                 <div className="trust-gradient p-4 rounded-full w-16 h-16 flex items-center justify-center mb-6">
                   <Stethoscope className="w-8 h-8 text-primary-foreground" />
                 </div>
                 <h3 className="text-2xl font-bold text-foreground mb-4">Exames Audiológicos</h3>
-                <div className="text-muted-foreground mb-6 leading-relaxed">
-                  <p className="mb-3">Avaliações precisas para a sua saúde auditiva com equipamentos de última geração:</p>
+                <div className="text-muted-foreground mb-6 leading-relaxed flex-grow">
+                  <p className="mb-3">Avaliações precisas para a sua saúde auditiva:</p>
                   <ul className="space-y-2">
                     <li>• Audiometria Tonal e Vocal</li>
                     <li>• Audiometria Ocupacional</li>
@@ -89,7 +89,7 @@ export function ServicesSection() {
                 <Button 
                   variant="medical" 
                   onClick={handleExamWhatsApp}
-                  className="w-full"
+                  className="w-full mt-auto"
                 >
                   Agende seu Exame
                 </Button>
@@ -97,51 +97,61 @@ export function ServicesSection() {
             </Card>
           </div>
 
-          {/* Terapia de Linguagem */}
+          {/* Linguagem e Fala */}
           <div className="animate-fade-in">
             <Card className="shadow-soft hover:shadow-glow transition-smooth h-full">
-              <CardContent className="p-8">
+              <CardContent className="p-8 flex flex-col h-full">
                 <div className="trust-gradient p-4 rounded-full w-16 h-16 flex items-center justify-center mb-6">
                   <MessageSquare className="w-8 h-8 text-primary-foreground" />
                 </div>
                 <h3 className="text-2xl font-bold text-foreground mb-4">Linguagem e Fala</h3>
-                <p className="text-muted-foreground mb-6 leading-relaxed">
-                  Terapia fonoaudiológica e estimulação de linguagem. Atendimento personalizado para adultos e crianças.
-                </p>
+                <div className="text-muted-foreground mb-6 leading-relaxed flex-grow">
+                  <p className="mb-3">Terapia fonoaudiológica completa:</p>
+                  <ul className="space-y-2">
+                    <li>• Estimulação de linguagem</li>
+                    <li>• Terapia de fala</li>
+                    <li>• Atendimento infantil</li>
+                    <li>• Reabilitação auditiva</li>
+                  </ul>
+                </div>
                 <Button 
                   variant="medical" 
                   onClick={handleTherapyWhatsApp}
-                  className="w-full"
+                  className="w-full mt-auto"
                 >
                   Fale sobre sua necessidade
                 </Button>
               </CardContent>
             </Card>
           </div>
-        </div>
 
-        {/* Saúde Ocupacional */}
-        <div className="animate-fade-in">
-          <Card className="shadow-soft hover:shadow-glow transition-smooth">
-            <CardContent className="p-8">
-              <div className="text-center">
-                <div className="trust-gradient p-4 rounded-full w-16 h-16 flex items-center justify-center mb-6 mx-auto">
+          {/* Saúde Ocupacional */}
+          <div className="animate-fade-in">
+            <Card className="shadow-soft hover:shadow-glow transition-smooth h-full">
+              <CardContent className="p-8 flex flex-col h-full">
+                <div className="trust-gradient p-4 rounded-full w-16 h-16 flex items-center justify-center mb-6">
                   <Stethoscope className="w-8 h-8 text-primary-foreground" />
                 </div>
                 <h3 className="text-2xl font-bold text-foreground mb-4">Saúde Ocupacional</h3>
-                <p className="text-muted-foreground mb-6 leading-relaxed max-w-2xl mx-auto">
-                  Exames empresariais para cuidar da saúde auditiva no ambiente de trabalho.
-                </p>
+                <div className="text-muted-foreground mb-6 leading-relaxed flex-grow">
+                  <p className="mb-3">Exames empresariais especializados:</p>
+                  <ul className="space-y-2">
+                    <li>• Audiometria ocupacional</li>
+                    <li>• Exames admissionais</li>
+                    <li>• Exames periódicos</li>
+                    <li>• Laudos técnicos</li>
+                  </ul>
+                </div>
                 <Button 
                   variant="medical" 
                   onClick={handleExamWhatsApp}
-                  className="w-full max-w-md mx-auto"
+                  className="w-full mt-auto"
                 >
                   Solicite Orçamento
                 </Button>
-              </div>
-            </CardContent>
-          </Card>
+              </CardContent>
+            </Card>
+          </div>
         </div>
       </div>
     </section>
