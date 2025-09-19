@@ -9,9 +9,9 @@ const testimonials = [
     rating: 5
   },
   {
-    name: "Maria Silva",
-    age: "68 anos",
-    text: "A Dra. Franciele mudou minha vida! Depois de anos com dificuldades auditivas, hoje posso conversar normalmente com minha família. O atendimento é excepcional!",
+    name: "Julia Goulart",
+    age: "",
+    text: "Maravilhosa! Admiro muito teu profissionalismo e atenção com os pacientes, nota 100000 ❤️❤️❤️😍",
     rating: 5
   },
   {
