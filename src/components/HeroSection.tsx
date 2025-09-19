@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { MessageCircle, Instagram } from "lucide-react";
-import francieleImage from "@/assets/franciele-professional.jpg";
+import francieleImage from "@/assets/franciele-professional.png";
 
 export function HeroSection() {
   const handleWhatsAppContact = () => {

@@ -7,7 +7,7 @@ export function AboutSection() {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div className="animate-slide-up">
             <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-8">
-              Me Conheça: Franciéle Souza
+              Franciéle Souza
             </h2>
             <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
               <p>
