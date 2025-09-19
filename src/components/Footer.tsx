@@ -63,7 +63,7 @@ export function Footer() {
         
         <div className="border-t border-primary-foreground/20 mt-8 pt-8 text-center">
           <p className="text-primary-foreground/60">
-            © 2024 Franciéle Souza - Fonoaudióloga. Todos os direitos reservados.
+            © 2025 Franciéle Souza - Fonoaudióloga. Todos os direitos reservados.
           </p>
         </div>
       </div>
