@@ -46,14 +46,10 @@ export function VideoSection() {
           <div className="animate-fade-in">
             <div className="space-y-6">
               <div className="bg-card p-8 rounded-lg shadow-soft">
-                <p className="text-lg text-muted-foreground leading-relaxed mb-6">
+                <p className="text-lg text-muted-foreground leading-relaxed mb-8">
                   "Olá! Eu sou a Franciele Souza, sua fonoaudióloga. Minha missão é 
                   proporcionar a melhor experiência auditiva e de comunicação para 
                   você e sua família."
-                </p>
-                <p className="text-muted-foreground leading-relaxed mb-8">
-                  Com anos de experiência em fonoaudiologia, dedico-me a oferecer 
-                  cuidado personalizado e soluções completas para adultos e crianças.
                 </p>
                 <Button 
                   variant="medical" 
