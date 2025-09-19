@@ -5,7 +5,7 @@ import { MapPin, Clock, Phone, Mail } from "lucide-react";
 export function LocationSection() {
   const handleWhatsAppContact = () => {
     const message = encodeURIComponent("Olá! Gostaria de agendar uma consulta na clínica.");
-    window.open(`https://wa.me/555198369201?text=${message}`, '_blank');
+    window.open(`https://wa.me/5551998369201?text=${message}`, '_blank');
   };
 
   return (
@@ -47,9 +47,9 @@ export function LocationSection() {
                     <div>
                       <h4 className="font-semibold text-foreground mb-1">Horário de Funcionamento</h4>
                       <div className="text-muted-foreground space-y-1">
-                        <p>Segunda a Sexta: 8h às 18h</p>
-                        <p>Sábado: 8h às 12h</p>
-                        <p>Domingo: Fechado</p>
+                        <p>Segunda à quinta:</p>
+                        <p>08h às 12h</p>
+                        <p>13h30 às 17h</p>
                       </div>
                     </div>
                   </div>
@@ -60,7 +60,7 @@ export function LocationSection() {
                     </div>
                     <div>
                       <h4 className="font-semibold text-foreground mb-1">Telefone</h4>
-                      <p className="text-muted-foreground">(51) 98369-201</p>
+                      <p className="text-muted-foreground">(51) 99836-9201</p>
                     </div>
                   </div>
                   
@@ -70,7 +70,7 @@ export function LocationSection() {
                     </div>
                     <div>
                       <h4 className="font-semibold text-foreground mb-1">E-mail</h4>
-                      <p className="text-muted-foreground">contato@francielesouza.com.br</p>
+                      <p className="text-muted-foreground">franciele.fonoaudio@gmail.com</p>
                     </div>
                   </div>
                 </div>

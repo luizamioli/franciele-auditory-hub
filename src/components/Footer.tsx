@@ -2,15 +2,15 @@ import { Instagram, Phone, Mail, MapPin } from "lucide-react";
 
 export function Footer() {
   const handleInstagramClick = () => {
-    window.open('https://instagram.com/francielesouzafono', '_blank');
+    window.open('https://instagram.com/fonofrancielesouza', '_blank');
   };
 
   const handlePhoneClick = () => {
-    window.open('tel:+555198369201', '_self');
+    window.open('tel:+5551998369201', '_self');
   };
 
   const handleEmailClick = () => {
-    window.open('mailto:contato@francielesouza.com.br', '_self');
+    window.open('mailto:franciele.fonoaudio@gmail.com', '_self');
   };
 
   return (
@@ -18,7 +18,7 @@ export function Footer() {
       <div className="max-w-6xl mx-auto px-6">
         <div className="grid md:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-2xl font-bold mb-4">Franciele Souza</h3>
+            <h3 className="text-2xl font-bold mb-4">Franciéle Souza</h3>
             <p className="text-primary-foreground/80 leading-relaxed">
               Fonoaudióloga especialista em aparelhos auditivos, 
               dedicada a transformar vidas através de soluções auditivas personalizadas.
@@ -33,14 +33,14 @@ export function Footer() {
                 className="flex items-center gap-3 text-primary-foreground/80 hover:text-primary-foreground transition-smooth"
               >
                 <Phone className="w-4 h-4" />
-                (51) 98369-201
+                (51) 99836-9201
               </button>
               <button 
                 onClick={handleEmailClick}
                 className="flex items-center gap-3 text-primary-foreground/80 hover:text-primary-foreground transition-smooth"
               >
                 <Mail className="w-4 h-4" />
-                contato@francielesouza.com.br
+                franciele.fonoaudio@gmail.com
               </button>
               <div className="flex items-center gap-3 text-primary-foreground/80">
                 <MapPin className="w-4 h-4" />
@@ -56,14 +56,14 @@ export function Footer() {
               className="flex items-center gap-3 text-primary-foreground/80 hover:text-primary-foreground transition-smooth hover:scale-105"
             >
               <Instagram className="w-5 h-5" />
-              @francielesouzafono
+              @fonofrancielesouza
             </button>
           </div>
         </div>
         
         <div className="border-t border-primary-foreground/20 mt-8 pt-8 text-center">
           <p className="text-primary-foreground/60">
-            © 2024 Franciele Souza - Fonoaudióloga. Todos os direitos reservados.
+            © 2025 Franciéle Souza - Fonoaudióloga. Todos os direitos reservados.
           </p>
         </div>
       </div>

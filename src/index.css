@@ -44,6 +44,7 @@ All colors MUST be HSL.
     --medical-gray: 210 15% 45%;
     --trust-gradient: linear-gradient(135deg, hsl(327, 85%, 45%) 0%, hsl(327, 85%, 65%) 100%);
     --soft-gradient: linear-gradient(180deg, hsl(210 50% 98%) 0%, hsl(210 30% 95%) 100%);
+    --pink-soft-gradient: linear-gradient(180deg, hsl(330 60% 97%) 0%, hsl(325 40% 94%) 100%);
     --shadow-soft: 0 4px 20px -4px hsla(340, 81%, 48%, 0.1);
     --shadow-glow: 0 8px 30px -8px hsla(305, 85%, 45%, 0.3);
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -123,6 +124,10 @@ All colors MUST be HSL.
   
   .soft-gradient {
     background: var(--soft-gradient);
+  }
+  
+  .pink-soft-gradient {
+    background: var(--pink-soft-gradient);
   }
   
   .shadow-soft {
