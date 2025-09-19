@@ -31,11 +31,11 @@ export function Header() {
           <div className="flex items-center gap-3">
             <img 
               src={logoFran} 
-              alt="Franciele Souza - Logo" 
+              alt="Franciéle Souza - Logo" 
               className="h-10 w-10 object-contain"
             />
             <div className="hidden md:block">
-              <h3 className="font-bold text-foreground">Franciele Souza</h3>
+              <h3 className="font-bold text-foreground">Franciéle Souza</h3>
               <p className="text-xs text-muted-foreground">Fonoaudióloga</p>
             </div>
           </div>

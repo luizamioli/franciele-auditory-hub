@@ -18,7 +18,7 @@ export function Footer() {
       <div className="max-w-6xl mx-auto px-6">
         <div className="grid md:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-2xl font-bold mb-4">Franciele Souza</h3>
+            <h3 className="text-2xl font-bold mb-4">Franciéle Souza</h3>
             <p className="text-primary-foreground/80 leading-relaxed">
               Fonoaudióloga especialista em aparelhos auditivos, 
               dedicada a transformar vidas através de soluções auditivas personalizadas.
@@ -63,7 +63,7 @@ export function Footer() {
         
         <div className="border-t border-primary-foreground/20 mt-8 pt-8 text-center">
           <p className="text-primary-foreground/60">
-            © 2024 Franciele Souza - Fonoaudióloga. Todos os direitos reservados.
+            © 2024 Franciéle Souza - Fonoaudióloga. Todos os direitos reservados.
           </p>
         </div>
       </div>

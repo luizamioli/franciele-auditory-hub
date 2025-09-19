@@ -4,7 +4,7 @@ import { MessageCircle } from "lucide-react";
 
 export function VideoSection() {
   const handleWhatsAppContact = () => {
-    const message = encodeURIComponent("Olá! Gostaria de conversar com a Franciele.");
+    const message = encodeURIComponent("Olá! Gostaria de conversar com a Franciéle.");
     window.open(`https://wa.me/5551998369201?text=${message}`, '_blank');
   };
 
@@ -13,7 +13,7 @@ export function VideoSection() {
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center mb-16 animate-slide-up">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            Conheça a Franciele
+            Conheça a Franciéle
           </h2>
         </div>
         
@@ -47,7 +47,7 @@ export function VideoSection() {
             <div className="space-y-6">
               <div className="bg-card p-8 rounded-lg shadow-soft">
                 <p className="text-lg text-muted-foreground leading-relaxed mb-8">
-                  "Olá! Eu sou a Franciele Souza, sua fonoaudióloga. Minha missão é 
+                  "Olá! Eu sou a Franciéle Souza, sua fonoaudióloga. Minha missão é 
                   proporcionar a melhor experiência auditiva e de comunicação para 
                   você e sua família."
                 </p>
@@ -58,7 +58,7 @@ export function VideoSection() {
                   className="w-full"
                 >
                   <MessageCircle className="mr-2 h-5 w-5" />
-                  Converse com a Franciele
+                  Converse com a Franciéle
                 </Button>
               </div>
             </div>
