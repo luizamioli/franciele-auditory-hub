@@ -11,19 +11,10 @@ export function AboutSection() {
             </h2>
             <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
               <p>
-                Com mais de 10 anos de experiência em fonoaudiologia e especialização 
-                em aparelhos auditivos, a Dra. Franciele Souza dedica-se a transformar 
-                a qualidade de vida de seus pacientes através de soluções auditivas personalizadas.
+                Com mais de 6 anos de experiência na área de aparelhos auditivos, pós graduada em distúrbios da fala e da linguagem, dedico-me à transformar a qualidade de vida de meus pacientes através do atendimento personalizado.
               </p>
               <p>
-                Nossa abordagem é centrada no paciente, oferecendo não apenas aparelhos 
-                de última geração, mas também acompanhamento completo para garantir 
-                sua adaptação e satisfação total.
-              </p>
-              <p>
-                <span className="text-primary font-semibold">Missão:</span> Proporcionar 
-                soluções auditivas que devolvam a conexão com o mundo sonoro, 
-                sempre com atendimento humanizado e tecnologia de ponta.
+                Minha abordagem oferece não apenas aparelhos auditivos de última geração, mas também acompanhamento completo para garantir sua adaptação e satisfação total.
               </p>
             </div>
           </div>
