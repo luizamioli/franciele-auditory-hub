@@ -15,9 +15,9 @@ const testimonials = [
     rating: 5
   },
   {
-    name: "João Santos",
-    age: "72 anos", 
-    text: "Profissional muito competente e atenciosa. O aparelho que ela indicou é perfeito para minhas necessidades. Recomendo para todos!",
+    name: "Caruline Schererw",
+    age: "", 
+    text: "Profissional maravilhosa, super pacienciosa e atenciosa com as crianças",
     rating: 5
   }
 ];
@@ -28,11 +28,11 @@ export function TestimonialsSection() {
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center mb-16 animate-slide-up">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            O Que Nossos Pacientes Dizem
+            O Que Meus Pacientes Dizem
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            A satisfação de nossos pacientes é nossa maior recompensa. 
-            Veja alguns depoimentos de quem já transformou sua qualidade de vida conosco.
+            A satisfação dos meus pacientes é minha maior recompensa. 
+            Veja alguns depoimentos de quem já transformou sua qualidade de vida comigo.
           </p>
         </div>
         

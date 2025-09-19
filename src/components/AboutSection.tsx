@@ -7,14 +7,14 @@ export function AboutSection() {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div className="animate-slide-up">
             <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-8">
-              Conheça a Dra. Franciéle Souza
+              Me Conheça: Franciéle Souza
             </h2>
             <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
               <p>
-                Com mais de 6 anos de experiência na área de aparelhos auditivos, pós graduada em distúrbios da fala e da linguagem, dedico-me à transformar a qualidade de vida de meus pacientes através do atendimento personalizado.
+                Tenho mais de 6 anos de experiência na área de aparelhos auditivos e sou pós-graduada em distúrbios da fala e da linguagem. Dedico-me a transformar a qualidade de vida dos meus pacientes através de um atendimento personalizado.
               </p>
               <p>
-                Minha abordagem oferece não apenas aparelhos auditivos de última geração, mas também acompanhamento completo para garantir sua adaptação e satisfação total.
+                Minha abordagem oferece não apenas aparelhos auditivos de última geração, mas também um acompanhamento completo para garantir sua adaptação e satisfação total.
               </p>
             </div>
           </div>

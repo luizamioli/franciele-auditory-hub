@@ -13,7 +13,7 @@ export function VideoSection() {
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center mb-16 animate-slide-up">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            Conheça a Franciéle
+            Me Conheça
           </h2>
         </div>
         
@@ -58,7 +58,7 @@ export function VideoSection() {
                   className="w-full"
                 >
                   <MessageCircle className="mr-2 h-5 w-5" />
-                  Converse com a Franciéle
+                  Converse Comigo
                 </Button>
               </div>
             </div>

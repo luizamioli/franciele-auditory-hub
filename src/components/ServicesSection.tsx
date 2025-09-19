@@ -41,11 +41,11 @@ export function ServicesSection() {
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center mb-16 animate-slide-up">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            Nossas Especialidades
+            Minhas Especialidades
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Oferecemos cuidado completo em fonoaudiologia, com tecnologia avançada 
-            e atendimento personalizado para toda a família.
+            Ofereço cuidado completo em fonoaudiologia, com tecnologia avançada 
+            e atendimento personalizado para você e sua família.
           </p>
         </div>
 
@@ -54,7 +54,7 @@ export function ServicesSection() {
           <div className="text-center mb-12">
             <h3 className="text-3xl font-bold text-foreground mb-4">Aparelhos Auditivos</h3>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Tecnologia e conforto em aparelhos selecionados especialmente para suas necessidades.
+              Trabalho com tecnologia e conforto em aparelhos selecionados especialmente para suas necessidades.
             </p>
           </div>
           
