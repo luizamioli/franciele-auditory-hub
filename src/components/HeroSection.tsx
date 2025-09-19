@@ -13,7 +13,12 @@ export function HeroSection() {
   };
 
   return (
-    <section id="inicio" className="min-h-screen flex items-center justify-center soft-gradient pt-16">
+    <section 
+      id="inicio" 
+      className="min-h-screen flex items-center justify-center 
+                 bg-gradient-to-r from-primary/10 via-primary/5 to-background/95 
+                 pt-16" // Mantive o pt-16 para ajuste com o header fixo
+    >
       <div className="max-w-6xl mx-auto px-6 py-20">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left side - Text content */}
