@@ -67,6 +67,19 @@ export function ServicesSection() {
           </div>
         </div>
 
+        {/* Divisor Visual */}
+        <div className="my-16 relative">
+          <div className="absolute inset-0 flex items-center">
+            <div className="w-full border-t border-border/50"></div>
+          </div>
+          <div className="relative flex justify-center">
+            <div className="bg-background px-8 py-4 rounded-full border border-border/20 shadow-soft">
+              <h3 className="text-2xl font-bold text-foreground text-center">Meus Serviços Clínicos</h3>
+              <p className="text-sm text-muted-foreground text-center mt-1">Cuidado completo para sua saúde auditiva</p>
+            </div>
+          </div>
+        </div>
+
         {/* Serviços Fonoaudiológicos */}
         <div className="grid md:grid-cols-3 gap-8">
           {/* Exames Audiológicos */}
